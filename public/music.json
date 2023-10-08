@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/nq2F18V/annie-spratt-sggw4-q-DD54-unsplash.jpg",
+        "title": "Event Planning",
+        "description": "Our event planning service is the cornerstone of unforgettable musical experiences. We take on the role of meticulous architects, overseeing every aspect of your event from conception to execution. Our comprehensive approach encompasses venue selection, artist coordination, scheduling, and intricate logistics management. Think of us as the conductors of your event's success, ensuring that every element harmonizes to create an unforgettable symphony of memories. With a keen eye for detail, we orchestrate a seamless event that leaves both performers and attendees in awe."
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/JcjsNFH/medium-shot-artists-making-music.jpg",
+        "title": "Technical Support",
+        "description": "Our technical support is the behind-the-scenes magic that transforms your event into a sensory masterpiece. We specialize in sound system setup, awe-inspiring lighting design, and precise stage preparation. Our experts ensure that the technical elements of your event operate flawlessly, allowing artists to shine and the audience to be immersed in a captivating sensory extravaganza. Picture us as the unseen artisans who craft the canvas upon which the magic of music unfolds."
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/bd2ZDWF/man-composer-producer-arranger-songwriter-musician-hands-arranging-music.jpg",
+        "title": "Marketing and Promotion",
+        "description": "We are the storytellers who amplify the voice of your event, bringing it to life in the eyes of the world. Our services encompass dynamic social media campaigns, captivating advertisements, and the creation of engaging content. We aim to generate excitement and anticipation, curating an audience from diverse corners of the world. Think of us as the heralds announcing a musical celebration that transcends boundaries. With strategic campaigns and compelling narratives, we ensure that your event becomes a global sensation."
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/cyXmDPP/wes-hicks-MEL-j-Jnm7-RQ-unsplash.jpg",
+        "title": "Artist Management",
+        "description": "We act as the backstage hosts, ensuring that artists are at their best for your event. Our responsibilities span from meticulous contract negotiations to arranging travel and accommodations tailored to artist preferences. We create an environment where artists feel cherished and valued, allowing them to deliver breathtaking performances. Imagine us as the custodians of the stars, dedicated to ensuring their brilliance shines on your stage."
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/FBXLLLg/asaf-rovny-Cq-Bn7v-LG9s-unsplash.jpg",
+        "title": "Safety Planning",
+        "description": "Safety planning is our unwavering commitment to protect the well-being of every event attendee. Our services encompass meticulous crowd management, rapid coordination of medical assistance, and the development of comprehensive emergency response protocols. We leave no stone unturned in creating a secure environment, ensuring that attendees can immerse themselves in the event without worry. Picture us as the vigilant guardians, safeguarding the event's integrity and the safety of all."
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/2j9C4P7/glowing-stage-light-illuminates-cheering-rock-fans-generated-by-ai.jpg",
+        "title": "Fan Experience",
+        "description": "We are the architects of joy, crafting an immersive world that elevates the fan experience. Our offerings encompass interactive activities, dynamic fan zones, and an array of event merchandise. We aim to immerse attendees in a memorable experience, making every moment unforgettable. Think of us as the creators of a vibrant atmosphere, where every interaction becomes a cherished memory. With creativity and enthusiasm, we elevate fan engagement to new heights."
+    }
+]
