@@ -1,7 +1,7 @@
 
 const Faq = () => {
     return (
-        <div className="my-24">
+        <div className="my-24 w-11/12 mx-4">
             <h1 className="text-center text-5xl py-4 font-semibold underline mb-5 text-lime-500">FAQ</h1>
             <div className="collapse collapse-plus bg-sky-500 text-white mt-2">
                 <input type="radio" name="my-accordion-3" checked="checked" />

@@ -6,7 +6,7 @@ const Banner = () => {
         />
 
         <div className="absolute inset-0 flex items-center justify-center">
-          <h1 className="text-center text-7xl rounded-r-3xl rounded-l-3xl p-5 font-semibold bg-opacity-10 bg-slate-950">
+          <h1 className="text-center text-xl md:text-4xl lg:text-7xl rounded-r-3xl rounded-l-3xl p-4 lg:p-5 font-semibold bg-opacity-10 bg-slate-950">
             Your Musical Journey Begins Here!
           </h1>
         </div>

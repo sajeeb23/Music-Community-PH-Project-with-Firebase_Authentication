@@ -11,10 +11,10 @@ const About = () => {
     }, []);
 
     return (
-        <div className="my-24 mx-16 bg-sky-500 rounded-2xl text-white">
-            <div className='p-16'>
+        <div className="my-24 mx-3 lg:mx-16 bg-sky-500 rounded-2xl text-white">
+            <div className='p-12 lg:p-16'>
                 <p
-                    className="text-xl w-4/5 text-center"
+                    className="text-xl w-4/5 lg:text-center"
                     data-aos="fade-right"
                 >
                     Welcome to MusicCommunity, where music becomes an unforgettable journey. We are passionate about creating extraordinary musical experiences that resonate in the hearts of all who attend.

@@ -14,8 +14,8 @@ const Service = ({ id, title, image }) => {
 
     return (
         <Link to={`/service/${id}`}>
-            <div data-aos="fade" className="hover:cursor-pointer hover:-translate-y-3 duration-200 mx-2 md:mx-12 lg:mx-14">
-                <div className="relative hover:shadow-2xl flex h-5/6 w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+            <div data-aos="fade" className="hover:cursor-pointer hover:-translate-y-3 duration-200 ">
+                <div className="relative hover:shadow-2xl mx-4 md:mx-5 lg:mx-14 flex h-5/6 w-11/12 lg:w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                     <div className="relative mx-4 mt-4 h-80 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
                         <img src={image} alt="not found" />
                     </div>

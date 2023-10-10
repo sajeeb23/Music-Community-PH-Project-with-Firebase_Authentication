@@ -25,7 +25,7 @@ const Description = () => {
         <>
           <img src={service.image} className='mt-16 mx-auto w-4/5' alt="" />
           <h1 className='text-5xl my-10 font-semibold text-center'>{service.title}</h1>
-          <p className='text-xl w-4/5 mx-auto text-center'>{service.description}</p>
+          <p className='text-xl w-4/5 mx-auto lg:text-center'>{service.description}</p>
         </>
       ) : ""}
     </div>
