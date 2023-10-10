@@ -1,4 +1,5 @@
 
+import Footer from '../components/Footer/Footer';
 import Navbar from '../components/Header/Navbar';
 import { Outlet } from 'react-router-dom';
 
@@ -7,6 +8,7 @@ const Layout = () => {
         <div className='my-6 container mx-auto'>
             <Navbar></Navbar>
             <Outlet></Outlet>
+            <Footer></Footer>
         </div>
     );
 };

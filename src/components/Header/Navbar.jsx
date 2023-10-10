@@ -11,47 +11,32 @@ const Navbar = () => {
                     <NavLink
                         to="/"
                         className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "bg-red-600 text-white py-2 px-3 rounded-l-xl" : "bg-black text-white py-2 px-3 rounded-l-xl"
+                            isPending ? "pending" : isActive ? "bg-sky-500 text-white py-2 px-3 rounded-l-xl" : "bg-black text-white py-2 px-3 rounded-l-xl"
                         }
                         >
                         Home
                     </NavLink>
                     <NavLink
-                        to="/services"
-                        className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "bg-red-600 text-white p-2" : "bg-black text-white p-2"
-                        }
-                        >
-                        Services
-                    </NavLink>
-                    <NavLink
                         to="/about"
                         className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "bg-red-600 text-white py-2 px-3 " : "bg-black text-white py-2 px-3 "
+                            isPending ? "pending" : isActive ? "bg-sky-500 text-white py-2 px-3 " : "bg-black text-white py-2 px-3 "
                         }
                         >
                         About Us
                     </NavLink>
                     <NavLink
-                        to="/login"
+                        to="/contact"
                         className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "bg-red-600 text-white py-2 px-3" : "bg-black text-white py-2 px-3"
-                        }
+                        isPending ? "pending" : isActive ? "bg-sky-500 text-white py-2 px-3 rounded-r-xl" : "bg-black text-white py-2 px-3 rounded-r-xl"
+                    }
                         >
-                        Login
+                        Contact
                     </NavLink>
-                    <NavLink
-                        to="/signup"
-                        className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "bg-red-600 text-white py-2 px-3 rounded-r-xl" : "bg-black text-white py-2 px-3 rounded-r-xl"
-                        }
-                        >
-                        SignUp
-                    </NavLink>
+                    
             </div>
             <div className="navbar-end">
                 <button className="btn btn-ghost">
-                    Login
+                    <Link to={'/login'}>Login</Link>
                 </button>
                 <div className="avatar">
                     <div className="w-10 rounded-full">
