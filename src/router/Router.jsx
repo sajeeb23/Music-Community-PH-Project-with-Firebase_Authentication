@@ -8,6 +8,7 @@ import Contact from "../pages/Contact/Contact";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import PrivateRoute from "./PrivateRoute";
+import Faq from "../pages/FAQ/Faq";
 
 const createdRoute = createBrowserRouter([
     {
@@ -23,7 +24,7 @@ const createdRoute = createBrowserRouter([
             },
             {
                 path: '/contact',
-                element: <Contact></Contact>
+                element: <PrivateRoute><Contact></Contact></PrivateRoute>
                 
             },
             {
@@ -43,7 +44,12 @@ const createdRoute = createBrowserRouter([
             {
                 path: '/register',
                 element: <Register></Register>
+            },
+            {
+                path: '/faq',
+                element: <PrivateRoute><Faq></Faq></PrivateRoute>
             }
+            
         ]   
     }
 ])
