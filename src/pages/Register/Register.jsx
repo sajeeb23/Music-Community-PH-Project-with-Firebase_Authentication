@@ -1,20 +1,37 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 
 const Register = () => {
-    const {createUser} = useContext(AuthContext);
-    const handleRegister = e =>{
+    const { createUser } = useContext(AuthContext);
+    const [passwordError, setPasswordError] = useState(null);
+
+    const handleRegister = async (e) => {
         e.preventDefault();
-        console.log(e.currentTarget);
         const form = new FormData(e.currentTarget);
-        
         const name = form.get('name');
         const image = form.get('image');
         const email = form.get('email');
         const password = form.get('password');
-        console.log(name, image, email, password);
-    }
+
+        if (password.length < 6) {
+            setPasswordError("Password must be at least 6 characters long.");
+            return;
+        }
+        if (!/[A-Z]/.srvs(password)) {
+            setPasswordError("Password must contain at least one capital letter.");
+            return;
+        }
+        if (!/[!@#$%^&*()_+[\]{};':"\\|,.<>/?-]/.srvs(password)) {
+            setPasswordError("Password must contain at least one special character.");
+            return;
+        }
+
+        setPasswordError(null);
+
+        await createUser(email, password);
+    };
+
     return (
         <div>
             <div className="hero min-h-screen bg-base-200">
@@ -44,12 +61,15 @@ const Register = () => {
                                     <span className="label-text text-white">Password</span>
                                 </label>
                                 <input type="password" name="password" placeholder="password" className="input input-bordered" required />
+                                {passwordError && (
+                                    <p className="text-red-600">{passwordError}</p>
+                                )}
                                 <label className="label">
                                     <div className="label-text-alt text-white">Already have an account? <Link to={'/login'} className="link link-hover font-bold">Login!</Link></div>
                                 </label>
                             </div>
                             <div className="form-control mt-6">
-                                <button className="btn btn-warning">Login</button>
+                                <button className="btn btn-warning">SignUp</button>
                             </div>
                         </form>
                     </div>

@@ -7,6 +7,7 @@ import ErrorPage from "../pages/ErrorPage";
 import Contact from "../pages/Contact/Contact";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
+import PrivateRoute from "./PrivateRoute";
 
 const createdRoute = createBrowserRouter([
     {
@@ -31,7 +32,7 @@ const createdRoute = createBrowserRouter([
             },
             {
                 path: 'service/:id',
-                element: <Description></Description>,
+                element: <PrivateRoute><Description></Description></PrivateRoute>,
                 loader: ()=> fetch('/music.json')
                 
             },
