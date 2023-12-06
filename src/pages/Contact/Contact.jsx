@@ -1,7 +1,7 @@
 
 const Contact = () => {
     return (
-        <div className="my-24 mx-3 lg:mx-16 bg-sky-500 rounded-2xl text-white">
+        <div className="my-24 mx-3 lg:mx-12 bg-sky-500 rounded-2xl text-white">
             <div className="p-8">
                 <h2 className="text-3xl font-semibold mb-6">Contact Us</h2>
                 <p className="text-xl mb-4">
